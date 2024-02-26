@@ -182,3 +182,26 @@ def initialize_model(model_name, num_classes, width, channels, feature_extract, 
         exit()
     
     return model_ft, input_size
+
+
+
+# Intended Input Image Size
+HEIGHT = 224
+WIDTH = 224
+CHANNELS = 3
+
+# Models to choose from [resnet, alexnet, vgg, squeezenet, densenet, inception]
+MODEL_NAME = "resnet"
+# Number of classes in the dataset
+NUM_CLASSES = 2
+# Flag for feature extracting. When False, we finetune the whole model, 
+#   when True we only update the reshaped layer params
+FEATURE_EXTRACT = False
+
+# Initialize the model for this run
+
+model_ft, input_size = initialize_model(MODEL_NAME, NUM_CLASSES, WIDTH, CHANNELS, FEATURE_EXTRACT, use_pretrained=True)
+
+# Print the parameters of the model we just instantiated
+#for param in model_ft.parameters():
+#  print(param.data)
