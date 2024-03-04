@@ -43,9 +43,13 @@ This Project is sponsored by Emory's QTM department and Neighborhood Nexus. Our 
 
 
 ## Acknowledgement
-This work is sponsored by Emory's QTM department and Neighborhood Nexus. We would like to thank Dr. Kevin McAlister for his mentorship.
+This work is sponsored by Emory's QTM department and Neighborhood Nexus. We would like to thank Dr. Kevin McAlister for his mentorship. We thank DamageMap for providing 
 
 ## Contact
 Feel free to contact me by email if you have any questions related to this project.
 
+## Reference 
+Code: https://github.com/kkraoj/damaged_structures_detector
+
+Paper: Fatemeh Alidoost, Hossein Arefi; “A CNN-Based Approach for Automatic Building Detection and Recognition of Roof Types Using a Single Aerial Image”, PFG – Journal         of Photogrammetry, Remote Sensing and Geoinformation Science, December 2018, Volume 86, Issue 5–6, pp 235–248, https://doi.org/10.1007/s41064-018-0060-5
 
