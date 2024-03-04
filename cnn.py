@@ -22,6 +22,7 @@ import time
 import os
 import copy
 
+# see more at: https://github.com/kkraoj/damaged_structures_detector/blob/master/codes/Final%20Project.ipynb
 
 # Below is a copy and paste from shared git damaged_structures_detector !!!
 
