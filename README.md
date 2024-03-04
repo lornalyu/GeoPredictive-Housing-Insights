@@ -16,6 +16,23 @@ This Project is sponsored by Emory's QTM department and Neighborhood Nexus. Our 
 * Boxiao Chen bche238@emory.edu
 * Mario Alejandro mario.sanchez.del.campo@emory.edu
 
+### Methods Used
+* Machine Learning
+* Data Mining
+* Data Visualization
+* Deep Learning
+* Predictive Modeling
+* etc.
+
+
+### Technologies
+* Google Earth Engine for Data Collection
+* Google Drive for Data Storing and Sharing
+* Excel for Data Preprocessing
+* Python for Data Analysis, Modeling, and Visualization
+* PowerPoint and GitHub for Project Presentation
+* Jupyter Notebook for Reproducible Notebook
+
 ## Exploratory Data Analysis
 ![image](https://github.com/lornalyu/QTM-Project/assets/157392307/fe02956a-e4ec-4273-9e2d-cd0f3a39f67a)
 ![image](https://github.com/lornalyu/QTM-Project/assets/157392307/c0fb2f29-0ee3-494a-b83a-0ad1c3abc014)
@@ -25,6 +42,10 @@ This Project is sponsored by Emory's QTM department and Neighborhood Nexus. Our 
 ![image](https://github.com/lornalyu/QTM-Project/assets/157392307/d4a2227a-51d9-4651-b264-631e31d8f001)
 
 
+## Acknowledgement
+This work is sponsored by Emory's QTM department and Neighborhood Nexus. We would like to thank Dr. Kevin McAlister for his mentorship.
 
+## Contact
+Feel free to contact me by email if you have any questions related to this project.
 
 
