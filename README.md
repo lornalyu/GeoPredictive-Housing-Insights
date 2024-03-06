@@ -33,6 +33,13 @@ This Project is sponsored by Emory's QTM department and Neighborhood Nexus. Our 
 * PowerPoint and GitHub for Project Presentation
 * Jupyter Notebook for Reproducible Notebook
 
+
+# Project Description
+
+## Datasets
+**Fulton County Tax Record** :
+Under Georgia law, every property is assessed annually at fair market value. The Board of Assessors issues an annual notice of assessment for each property in Fulton County. Fulton County is committed to helping property owners understand their rights and responsibilities throughout the property tax process.
+
 ## Exploratory Data Analysis
 ![image](https://github.com/lornalyu/QTM-Project/assets/157392307/fe02956a-e4ec-4273-9e2d-cd0f3a39f67a)
 ![image](https://github.com/lornalyu/QTM-Project/assets/157392307/c0fb2f29-0ee3-494a-b83a-0ad1c3abc014)
