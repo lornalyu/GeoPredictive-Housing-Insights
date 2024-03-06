@@ -13,7 +13,7 @@ This Project is sponsored by Emory's QTM department and Neighborhood Nexus. Our 
 * Haojie Ge hge7@emory.edu
 * Ao Lyu ao.lyu@emory.edu
 * Jiahui Jin helen.jin@emory.edu
-* Boxiao Chen bche238@emory.edu
+* Baixiao Chen bche238@emory.edu
 * Mario Alejandro mario.sanchez.del.campo@emory.edu
 
 ### Methods Used
