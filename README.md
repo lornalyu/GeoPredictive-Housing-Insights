@@ -67,7 +67,10 @@ The project is designed to transform how communities address the upkeep of affor
 
 ## Project Workflow
 
-Detailed steps from data acquisition to model training and validation are outlined, focusing on the use of machine learning algorithms to process and analyze imagery data for detecting roof damages. Below is a code chunk which demonstrates one way in which we pulled images from Google Earth Engine using coordinates contained in a tax parcel geojson file.
+Detailed steps from data acquisition to model training and validation are outlined, focusing on the use of machine learning algorithms to process and analyze imagery data for detecting roof damages. 
+
+### Extracting Images from Tax Parcel Coordinates
+Below is a code chunk which demonstrates one way in which we pulled images from Google Earth Engine using coordinates contained in a tax parcel geojson file. Earth Engine is initialized, 
 
 ```
 # Import neccesary libraries
