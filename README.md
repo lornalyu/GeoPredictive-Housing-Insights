@@ -1,4 +1,5 @@
-# Predicting Damaged Roofs Through Aerial Imagery and Machine Learning
+#  GeoPredictive-Housing-Insights
+## Predicting Damaged Roofs Through Aerial Imagery and Machine Learning
 This Project is sponsored by Emory's QTM department and Neighborhood Nexus. Our goal is to harness Fulton County tax records and high-resolution aerial imagery to predict property code violations and potential abandonment in Atlanta. The initiative will utilize machine learning to analyze patterns and aid in the proactive maintenance of affordable housing, contributing meaningful insights to urban housing studies.
 
 ![image](https://github.com/lornalyu/QTM-Project/assets/157392307/d1d9deee-2d70-4d06-8683-da73d9032be7)
@@ -68,6 +69,23 @@ The project is designed to transform how communities address the upkeep of affor
 ## Project Workflow
 
 Detailed steps from data acquisition to model training and validation are outlined, focusing on the use of machine learning algorithms to process and analyze imagery data for detecting roof damages. 
+
+## Project Workflow
+![image](https://github.com/lornalyu/GeoPredictive-Housing-Insights/assets/140224372/62597558-bf89-494c-8b2a-6daae2daa525)
+
+
+The workflow of this project leverages advanced AI and machine learning techniques to assess and classify roof damage from aerial imagery. The process is broken down into several key stages:
+
+1. **AI Model for Building Footprint Segmentation**: Initially, drone imagery is utilized to create detailed maps of building footprints. An AI model developed by our [twin project](https://github.com/itsyunnie/Remote-Assessment-of-Residential-Properties-for-Maintenance-Needs-Using-Satellite-Image) processes these images to segment and identify individual buildings accurately. This foundational step is crucial as it ensures that subsequent analyses are precisely targeted at specific structures.
+
+2. **Segmented Image Preparation**: Once building footprints are identified, the next step involves segmenting these images to isolate the buildings from the surrounding environment. This segmentation facilitates focused analysis and ensures that the classification algorithms are applied directly to the relevant areas of interest. Codes below this section show the function developed to enable such cleaning processes.
+
+3. **Damage Classification with AI Classifier**: The core of our project focuses on this stage. We use a pre-trained ResNet34 model from Microsoft (US Building Footprints) to classify all the roofs on the input landscape. Using the segmented images, the specialized classifier is employed to determine the condition of each roof. This classifier has been trained to recognize various damage levels, which allows for detailed assessments of the structural integrity of each roof.
+
+4. **ROI Cropping for Classification**: For enhanced accuracy, Regions of Interest (ROIs) within each segmented image are cropped further to refine the input for the damage classification model. This step ensures that the classifier focuses precisely on potential damage indicators, thereby improving the reliability and precision of the output.
+
+5. **Output Generation**: The final output of the workflow is a classified map that visually represents the condition of roofs across the surveyed area. This map is instrumental for stakeholders, such as housing authorities and maintenance teams, to prioritize interventions and repairs.
+
 
 ### Extracting Images from Tax Parcel Coordinates
 Below we walk through what it generally looks like to pull images from Google Earth Engine using a set of coordinates and exporting these to a Google Drive Folder. 
@@ -165,5 +183,7 @@ For inquiries, please contact any of the collaborators via email.
 
 ## References
 
-- **Code Repository**: [Damaged Structures Detector](https://github.com/your_repository_here)
+- **Code Repositories**:
+- [Remote Assessment of Residential Properties for Maintenance and Repair Needs Using Satellite Image Analysis: A Case Study in Fulton County, GA](https://github.com/itsyunnie/Remote-Assessment-of-Residential-Properties-for-Maintenance-Needs-Using-Satellite-Image)
+- [Damaged Structures Detector](https://github.com/your_repository_here](https://github.com/kkraoj/damaged_structures_detector))
 - **Relevant Paper**: Alidoost, F., & Arefi, H. (2018). "A CNN-Based Approach for Automatic Building Detection and Recognition of Roof Types Using a Single Aerial Image," *PFG – Journal of Photogrammetry, Remote Sensing and Geoinformation Science*, 86(5–6), 235–248. [DOI](https://doi.org/10.1007/s41064-018-0060-5)
