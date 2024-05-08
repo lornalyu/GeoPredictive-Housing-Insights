@@ -186,4 +186,12 @@ For inquiries, please contact any of the collaborators via email.
 - **Code Repositories**:
 - [Remote Assessment of Residential Properties for Maintenance and Repair Needs Using Satellite Image Analysis: A Case Study in Fulton County, GA](https://github.com/itsyunnie/Remote-Assessment-of-Residential-Properties-for-Maintenance-Needs-Using-Satellite-Image)
 - [Damaged Structures Detector](https://github.com/your_repository_here](https://github.com/kkraoj/damaged_structures_detector))
-- **Relevant Paper**: Alidoost, F., & Arefi, H. (2018). "A CNN-Based Approach for Automatic Building Detection and Recognition of Roof Types Using a Single Aerial Image," *PFG – Journal of Photogrammetry, Remote Sensing and Geoinformation Science*, 86(5–6), 235–248. [DOI](https://doi.org/10.1007/s41064-018-0060-5)
+- **Relevant Papers**:
+-  Alidoost, F., & Arefi, H. (2018). "A CNN-Based Approach for Automatic Building Detection and Recognition of Roof Types Using a Single Aerial Image," *PFG – Journal of Photogrammetry, Remote Sensing and Geoinformation Science*, 86(5–6), 235–248. [DOI](https://doi.org/10.1007/s41064-018-0060-5)
+- Burchell, R.W. and D. Listokin (1995). "Influences on United States housing policy." *Housing Policy Debate*, 6, pp. 559–617.
+- Dreier, P. and J.P. Atlas (1995). "US housing problems politics and policies in the 1990s." *Housing Studies*, 10, pp. 245–269.
+- Glaeser, Edward L. and Joseph Gyourko (2003). "The Impact Of Building Restrictions On Housing Affordability." *Economic Policy Review*, 9.2, pp. 21–39.
+- How to Use Ultralytics YOLOv8 with SAM. (n.d.). Available at: [Roboflow Blog](https://blog.roboflow.com/how-to-use-yolov8-with-sam/).
+- Mulroy, E.A. and P.L. Ewalt (1996). "Affordable Housing: A Basic Need and a Social Issue." *Social Work*, 41, pp. 245–249.
+- Roboflow: Computer vision tools for developers and enterprises. (n.d.). Available at: [Roboflow](https://roboflow.com/). 
+
