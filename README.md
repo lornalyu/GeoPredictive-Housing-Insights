@@ -1,6 +1,6 @@
 #  GeoPredictive Housing Insights
 ## Predicting Damaged Roofs Through Aerial Imagery and Machine Learning
-This Project is sponsored by Emory's QTM department and Neighborhood Nexus. Our goal is to harness Fulton County tax records and high-resolution aerial imagery to predict property code violations and potential abandonment in Atlanta. The initiative will utilize machine learning to analyze patterns and aid in the proactive maintenance of affordable housing, contributing meaningful insights to urban housing studies.
+Our goal is to harness Fulton County tax records and high-resolution aerial imagery to predict property code violations and potential abandonment in Atlanta. The initiative will utilize machine learning to analyze patterns and aid in the proactive maintenance of affordable housing, contributing meaningful insights to urban housing studies. This Project is sponsored by Emory's [QTM department](https://quantitative.emory.edu/index.html)  and [Neighborhood Nexus](https://neighborhoodnexus.org/).
 
 ![image](https://github.com/lornalyu/QTM-Project/assets/157392307/d1d9deee-2d70-4d06-8683-da73d9032be7)
 
